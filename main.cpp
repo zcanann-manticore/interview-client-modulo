@@ -12,8 +12,9 @@ int CalculateModOfProduct(int a, int b, int n)
 
 int main(int argc, char *argv[])
 {
-    // Example call
-    std::cout << CalculateModOfProduct(2, 2, 3) << std::endl;
+    std::cout << CalculateModOfProduct(2, 3, 4) << " (expected: 2)" << std::endl;
+    std::cout << CalculateModOfProduct(1, 5, 2) << " (expected: 1)" << std::endl;
+    std::cout << CalculateModOfProduct(9, 1, 5) << " (expected: 4)" << std::endl;
 
     return EXIT_SUCCESS;
 }
