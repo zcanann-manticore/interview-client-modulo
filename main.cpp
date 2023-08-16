@@ -7,7 +7,7 @@
 // Return an integer that represents (a * b) % n without using the % operator
 int CalculateModOfProduct(int a, int b, int n)
 {
-
+    return 0;
 }
 
 int main(int argc, char *argv[])
