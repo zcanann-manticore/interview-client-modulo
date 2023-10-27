@@ -12,9 +12,9 @@ int CalculateModOfProduct(int a, int b, int n)
 
 int main(int argc, char *argv[])
 {
-    std::cout << CalculateModOfProduct(2, 3, 4) << "\t(expected: 2)" << std::endl;
-    std::cout << CalculateModOfProduct(1, 5, 2) << "\t(expected: 1)" << std::endl;
-    std::cout << CalculateModOfProduct(9, 1, 5) << "\t(expected: 4)" << std::endl;
+    std::cout << CalculateModOfProduct(2, 3, 4) << "\texpected: " << (2 * 3) % 4 << std::endl; // expected: 2
+    std::cout << CalculateModOfProduct(1, 5, 2) << "\texpected: " << (1 * 5) % 2 << std::endl; // expected: 1
+    std::cout << CalculateModOfProduct(9, 1, 5) << "\texpected: " << (9 * 1) % 5 << std::endl; // expected: 4
 
     return EXIT_SUCCESS;
 }
